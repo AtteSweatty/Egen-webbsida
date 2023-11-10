@@ -1,0 +1,67 @@
+/* Styling för header */
+header {
+    background-color: #333; /* Bakgrundsfärg */
+    color: #fff; /* Textfärg */
+    padding: 10px; /* Mellanrum runt innehållet */
+}
+
+/* Ta bort standardliststil för navigation */
+nav ul {
+    list-style: none;
+}
+
+/* Visa listobjekt horisontellt i navigationen */
+nav ul li {
+    display: inline;
+    margin-right: 20px; /* Avstånd mellan listobjekten */
+}
+
+/* Styling för navigationslänkar */
+nav a {
+    text-decoration: none; /* Ta bort understrykning från länkar */
+    color: #fff; /* Textfärg */
+}
+
+/* Styling för bilder */
+img {
+    max-width: 100%; /* Sätt maximal bredd för bilden */
+    height: auto; /* Behåll bildens proportioner */
+}
+
+/* Styling för tabeller */
+table {
+    width: 100%; /* Sätt tabellens bredd till 100% */
+    border-collapse: collapse; /* Kollapsa gränser mellan celler */
+}
+
+table, th, td {
+    border: 1px solid #ccc; /* Gränslinjefärg för tabell, th och td */
+}
+
+th, td {
+    padding: 8px; /* Mellanrum inuti tabellcellerna */
+}
+
+/* Alternerande bakgrundsfärg för tabellrader */
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Styling för footer */
+footer {
+    background-color: #333; /* Bakgrundsfärg */
+    color: #fff; /* Textfärg */
+    text-align: center; /* Centrera text */
+    padding: 10px; /* Mellanrum runt innehållet */
+}
+
+/* Centrera text för h1 */
+h1 {
+    text-align: center;
+}
+
+/* Styling för specifik klass kaffe1 */
+.kaffe1 {
+    max-width: 57.7%; /* Sätt maximal bredd för elementet med klassen kaffe1 */
+    height: auto; /* Behåll proportionerna */
+}
